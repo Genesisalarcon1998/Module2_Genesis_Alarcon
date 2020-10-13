@@ -7,21 +7,19 @@
 h1
 {
 	text-align: center;
-	margin-bottom: 50px;
+	margin-bottom: 90px;
 }
 
 p
 {
-	/*border: 1px solid black;*/
-	background-color: green;
-	border: 2.5px solid black;
 	width: 93%;
 	height: 120px;
 	font-family: Century Gothic;
-	font-size: 12.5px;
-	/*padding: 10px;*/
-	background-color: #999;
+	font-size: 12.8px;
+	padding: 0px;
 	margin: auto;
+	font-weight: 600;
+	color: #180911;
 }
 
 .row
@@ -131,4 +129,40 @@ p
 	width: 130px;
 	height: 25px;
 	text-align: center;
+}
+
+.container
+{
+	border: 2px solid black; 
+	background-color: #999; 
+	width: 400px; 
+	height: 140px;
+	margin-left: 30px;
+}
+
+.food-type
+{
+	position: relative; 
+	border: 2px solid black; 
+	width: 140px; 
+	height: 28px; 
+	float: right; 
+	text-align: center; 
+	/*background-color: #d59898; */
+	font-weight: bold;
+}
+
+.food-type.chicken
+{
+	background-color: #d59898; 
+}
+
+.food-type.beef
+{
+	background-color: #c14543; 
+}
+
+.food-type.sushi
+{
+	background-color: #e5d198; 
 }
