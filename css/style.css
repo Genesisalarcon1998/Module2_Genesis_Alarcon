@@ -19,7 +19,7 @@ p
 	height: 120px;
 	font-family: Century Gothic;
 	font-size: 12.5px;
-	padding: 10px;
+	/*padding: 10px;*/
 	background-color: #999;
 	margin: auto;
 }
@@ -122,4 +122,13 @@ p
 	{
 		width: 100%;
 	}
+}
+
+#chicken
+{
+	position: relative;
+	border: 1px solid red;
+	width: 130px;
+	height: 25px;
+	text-align: center;
 }
