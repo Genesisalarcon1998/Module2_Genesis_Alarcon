@@ -27,31 +27,46 @@ p
 	width: 100%;
 }
 
-/** MEDIA **/
+/* MEDIA */
 
-/*@media (min-width: 992px)
+@media (min-width: 992px)
 {
-	.desktop
+	.Genesis
 	{
 		color: red;
 	}
+
+	/*.desktop
+	{
+		color: red;
+	}*/
 }
 
 @media (min-width: 768px) and (max-width: 991px)
 {
-	.tablet
+	.Genesis
+	{
+		color: blue;
+	}
+
+	/*.tablet
 	{
 		color: yellow;
-	}
+	}*/
 }
 
 @media (max-width: 767px)
 {
-	.mobile
+	.Genesis
+	{
+		color: orange;
+	}
+
+	/*.mobile
 	{
 		color: green;
-	}
-}*/
+	}*/
+}
 
 @media (min-width: 992px)
 {
